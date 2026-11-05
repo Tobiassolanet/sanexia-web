@@ -1,0 +1,39 @@
+WEB DE SANEXIA — SITIO ESTÁTICO
+================================
+
+Contenido
+---------
+index.html            Página principal (con la secuencia "Cómo funciona")
+aviso-legal.html      Aviso legal (BORRADOR, ver pendientes)
+privacidad.html       Política de privacidad (BORRADOR)
+cookies.html          Política de cookies (el sitio no usa cookies)
+404.html              Página de error
+_redirects            Redirige las URLs antiguas de Wix a las nuevas
+robots.txt, sitemap.xml
+assets/               Estilos, script, tipografías (alojadas aquí, sin Google Fonts) e imágenes
+
+No hay dependencias ni build: se sube la carpeta tal cual.
+
+
+PUBLICAR EN NETLIFY (gratis, unos 30 minutos)
+---------------------------------------------
+1. Crea una cuenta en https://app.netlify.com (con el correo de Sanexia).
+2. Entra en https://app.netlify.com/drop y arrastra ESTA CARPETA descomprimida.
+   En unos segundos tendrás la web en una dirección tipo nombre.netlify.app. Revísala ahí.
+3. En el sitio: Domain management > Add a domain > www.sanexiasalud.com.
+4. Cambia los DNS donde esté gestionado el dominio (si lo comprasteis en Wix: Wix > Dominios > Gestionar registros DNS):
+     - Registro CNAME  www  ->  nombre.netlify.app
+     - Registro A      @    ->  la IP que indique Netlify en ese paso
+   NO toques los registros MX ni TXT: son los del correo contacto@sanexiasalud.com.
+5. Netlify activa el HTTPS solo cuando los DNS propagan (de minutos a unas horas).
+6. Comprueba la web en el dominio y SOLO DESPUÉS cancela el plan de Wix.
+   Si el dominio está registrado en Wix, mantenlo allí o transfiérelo antes; no lo canceles junto con el plan.
+
+Para actualizar la web más adelante: Netlify > Deploys > arrastra de nuevo la carpeta.
+
+
+PENDIENTES ANTES DE PUBLICAR
+----------------------------
+- Aviso legal y privacidad: rellenar NIF, domicilio social, datos del Registro Mercantil,
+  proveedor de correo y fecha (todo lo que va entre [corchetes]). Conviene que lo revise un abogado.
+- Revisar que la dirección del pie (Calle Vereda Altozano, 1) sea la que queréis mostrar.

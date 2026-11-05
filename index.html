@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanexia · Internalización sanitaria para reducir listas de espera</title>
+<meta name="description" content="Sanexia despliega equipos clínicos completos el fin de semana en consultas y quirófanos del hospital público para reducir listas de espera, sin derivar pacientes.">
+<link rel="canonical" href="https://www.sanexiasalud.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Sanexia">
+<meta property="og:title" content="Sanexia · Su hospital ya tiene la capacidad. Nosotros ponemos el equipo.">
+<meta property="og:description" content="Internalización sanitaria: equipos clínicos completos el fin de semana, dentro del hospital público, para reducir listas de espera.">
+<meta property="og:url" content="https://www.sanexiasalud.com/">
+<meta property="og:image" content="https://www.sanexiasalud.com/assets/img/og-sanexia.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2E2747">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.remove('no-js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Sanexia","legalName":"Sanexia Servicios Sanitarios S.L.","url":"https://www.sanexiasalud.com/","logo":"https://www.sanexiasalud.com/assets/img/icon-512.png","email":"contacto@sanexiasalud.com","sameAs":["https://www.linkedin.com/company/sanexia/"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Sanexia, inicio">
+      <img src="assets/img/sanexia-simbolo.png" alt="" width="40" height="31">
+      <span>Sanexia</span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="#como-funciona" class="hide-sm">Cómo funciona</a>
+      <a href="#equipo" class="hide-sm">Equipo</a>
+      <a href="#contacto" class="btn btn-navy">Hablemos</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- Portada -->
+  <section class="hero on-navy">
+    <div class="wrap stack">
+      <p class="kicker">Internalización sanitaria</p>
+      <h1>Su hospital ya tiene la capacidad. Nosotros ponemos el equipo.</h1>
+      <p class="sub">Equipos clínicos completos que trabajan el fin de semana en las consultas y quirófanos del hospital público para reducir sus listas de espera. Sin derivar pacientes. Venimos a sumar, no a sustituir.</p>
+      <div class="actions">
+        <a class="btn btn-white" href="#como-funciona">Ver cómo funciona</a>
+        <a class="btn btn-ghost-white" href="#contacto">Solicitar reunión</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secuencia -->
+  <section id="como-funciona" class="seq-section">
+    <div class="wrap stack">
+      <div class="stack seq-head reveal">
+        <p class="kicker">Cómo funciona</p>
+        <h2 class="h2">Así es contratar Sanexia, en seis escenas.</h2>
+      </div>
+
+      <div class="seq reveal" id="seq" aria-roledescription="secuencia" aria-label="Cómo funciona Sanexia">
+        <div class="seq-top">
+          <button type="button" class="seq-play" id="seq-play" aria-label="Pausar"></button>
+          <div class="seq-progress" id="seq-progress"></div>
+        </div>
+
+        <div class="seq-body">
+          <div class="stack seq-text" id="seq-text" aria-live="polite">
+            <p class="kicker" id="seq-kicker"></p>
+            <p class="title" id="seq-title"></p>
+            <p class="desc" id="seq-desc"></p>
+          </div>
+          <div class="stage">
+            <div class="stack" style="gap:8px">
+              <p class="kicker">Semana del hospital</p>
+              <div class="week" id="seq-week" aria-hidden="true"></div>
+            </div>
+            <div class="panel" id="seq-panel" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <div class="seq-nav">
+          <div class="row">
+            <button type="button" class="arrow-btn arrow-prev" id="seq-prev" aria-label="Escena anterior">
+              <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M16 10H4M9 4.5L3.5 10 9 15.5" fill="none" stroke="#2E2747" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <span class="counter" id="seq-counter">1 / 6</span>
+            <button type="button" class="arrow-btn arrow-next" id="seq-next" aria-label="Siguiente escena">
+              <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 4.5l5.5 5.5-5.5 5.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <p class="next-peek">Siguiente: <strong id="seq-peek"></strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section aria-label="Ventajas">
+    <div class="wrap benefits">
+      <div class="card reveal"><h3>El paciente no sale</h3><p>Se atiende en su hospital, con su historia clínica.</p></div>
+      <div class="card reveal"><h3>Gobernanza pública</h3><p>Sus protocolos y la dirección del servicio mandan.</p></div>
+      <div class="card reveal"><h3>Pago por proceso</h3><p>Sin inversión ni carga administrativa añadida.</p></div>
+      <div class="card reveal"><h3>Alivio para la plantilla</h3><p>Capacidad extra, no competencia con el equipo propio.</p></div>
+    </div>
+  </section>
+
+  <!-- Referencia y equipo -->
+  <section id="equipo" class="team on-navy">
+    <div class="wrap stack">
+      <div class="stack reveal" style="gap:12px;max-width:760px">
+        <p class="kicker">Por qué confiar</p>
+        <h2 class="h2">Un modelo probado en el NHS, traído por quien lo lideró.</h2>
+      </div>
+      <div class="team-cards">
+        <div class="case reveal">
+          <p class="kicker">Caso de referencia · BHRUT, Londres</p>
+          <p class="big">+2.000</p>
+          <p>pacientes de ginecología atendidos de principio a fin en tres meses, en fines de semana y dentro del hospital.</p>
+          <p class="src">Programa de 18 Week Support. Fuente: <a href="https://www.hsj.co.uk/workforce/partnering-for-progress-how-bhrut-and-18-week-support-are-transforming-womens-health-services/7039162.article" rel="noopener" target="_blank">HSJ</a>.</p>
+        </div>
+        <div class="person reveal">
+          <img src="assets/img/ramon-pajares.jpg" alt="Dr. Ramón Pajares" width="96" height="96" loading="lazy" style="object-position:50% 25%">
+          <h3>Dr. Ramón Pajares</h3>
+          <p class="role">Director médico</p>
+          <p class="bio">Más de 25 años en hospitales públicos y privados; fue jefe de Aparato Digestivo del H. U. Infanta Sofía.</p>
+        </div>
+        <div class="person reveal">
+          <img src="assets/img/martin-rueda.jpg" alt="Martín Rueda" width="96" height="96" loading="lazy" style="object-position:50% 30%">
+          <h3>Martín Rueda</h3>
+          <p class="role">Socio fundador</p>
+          <p class="bio">Ex Chief Strategy Officer de 18 Week Support, referente de la internalización en Reino Unido.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <div class="wrap">
+      <div class="stack text reveal">
+        <h2 class="h2">Empecemos por un piloto.</h2>
+        <p class="lead">Una especialidad, un fin de semana, resultados medibles antes de escalar.</p>
+      </div>
+      <div class="stack actions reveal">
+        <a class="btn btn-navy" href="mailto:contacto@sanexiasalud.com?subject=Piloto%20Sanexia">Solicitar reunión</a>
+        <a class="mail" href="mailto:contacto@sanexiasalud.com">contacto@sanexiasalud.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer on-navy">
+  <div class="wrap">
+    <span>Sanexia Servicios Sanitarios S.L. · Calle Vereda Altozano, 1 · 28100 Alcobendas, Madrid</span>
+    <span class="links">
+      <a href="https://www.linkedin.com/company/sanexia/" rel="noopener" target="_blank">LinkedIn</a>
+      <a href="aviso-legal">Aviso legal</a>
+      <a href="privacidad">Privacidad</a>
+      <a href="cookies">Cookies</a>
+      <span>© <span id="year">2026</span> Sanexia</span>
+    </span>
+  </div>
+</footer>
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>
